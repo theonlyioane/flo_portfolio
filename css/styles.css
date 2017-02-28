@@ -17,7 +17,9 @@ nav a:hover {
     color: #FB89AD;
     text-decoration: none;
 }
-    
+.img-responsive {
+    width:100%;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -44,26 +46,21 @@ nav li {
     font-weight:600;
 }
 header {
-    height:600px;
-    width:1200px;
-    margin:0 auto;
-    color:#fff;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
-    overflow: hidden;
 }
-header h2 {
+header h1 {
     text-align: center;
+    color:#fff;
 }
 header h5 {
     letter-spacing: 5px;
     opacity: .5;
+    color:#fff;
 }
 header img {
-    max-width:100%;
-    margin:0 auto;  
-    margin-left:0px;
-    z-index:-9000;
-    position: relative;
+    max-width: 1200px;
 }
 .header-text {
     left:0;
@@ -71,7 +68,7 @@ header img {
     margin-left:auto;
     margin-right:auto;
     position: absolute;
-    padding-top:260px
+    padding: 260px 20px 0px 20px;
 }
 section {
     max-width: 1200px;
@@ -106,7 +103,7 @@ section {
     width:280px;
     text-align:center;
     padding:23px 0px;
-    border: 2px solid #EFA686;
+    /*border: 2px solid #EFA686;*/
     -webkit-transition: 1s; /* Safari */
     transition: 1s;
     position: absolute;
@@ -114,11 +111,15 @@ section {
     right:0;
     margin-left:auto;
     margin-right:auto;
+    rgba(0, 0, 0, 0.5);
+    background:rgba(0, 0, 0, 0.5);
 }
+/*
 .project-description:hover {
     border: 2px solid #FB89AD;
     cursor:pointer;
 }
+*/
 .project-description h6 {
     color:#fff;
     font-family: 'Open Sans', sans-serif;
@@ -148,6 +149,7 @@ section {
     max-width:960px;
     padding: 0px 20px;
     margin: 0 auto;
+    text-align: center;
 }
 .article-quote h1 {
     font-weight:200;
