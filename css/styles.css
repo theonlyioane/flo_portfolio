@@ -3,6 +3,9 @@
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+body {
+    overflow-x:hidden;
+}
 p {
     font-family: 'Open Sans', sans-serif;
 }
@@ -61,6 +64,7 @@ header h5 {
 }
 header img {
     max-width: 1200px;
+    margin-top:-18px;
 }
 .header-text {
     left:0;
@@ -68,7 +72,7 @@ header img {
     margin-left:auto;
     margin-right:auto;
     position: absolute;
-    padding: 260px 20px 0px 20px;
+    padding: 300px 20px 0px 20px;
 }
 section {
     max-width: 1200px;
@@ -198,4 +202,30 @@ footer {
     margin:0 auto;
     color: #fff;
     text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        width:100%;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        padding:28px 0px 0px 0px;
+    }
+    nav li {
+        font-size:14px;
+    }
+    nav {
+        padding: 0px 20px;
+    }
+    nav img {
+        max-height:32px;
+        margin-top:24px;
+    }
+    header img {
+        float:right;
+    }
 }
