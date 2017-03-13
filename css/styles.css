@@ -220,7 +220,7 @@ footer {
 }
 .footer-social {
     margin:0 auto;
-    padding-top:20px;
+    padding: 20px 0px 80px 20px;
 }
 .footer-social .social-link{
     height:48px;
@@ -246,6 +246,7 @@ footer {
 }
 .footer-social a {
     width:48px;
+    height:48px;
     display: inline-block;
     margin:0px 10px;
 }
