@@ -101,9 +101,9 @@ section {
     border:10px solid #FB89AD;
 }
 .project-image img {
-    max-height:100%;
-    margin:0 auto;  
-    margin-left:0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .project-card{
     height:440px;
